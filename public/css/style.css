@@ -1,0 +1,511 @@
+/*esto es css de index*/
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;}
+
+@font-face{font-family: "acuncum";
+          src: url("http://localhost/Diagramacion/public/fonts/PAPYRUS.ttf");}        
+h1{ font-family: acuncum;
+        text-align: center;
+        font-size: 700%;
+        color:  white;}
+h2{font-family: acuncum;
+   text-align: center;
+   font-size: 50px;
+   color:  white;}
+
+#spoiler2{display: none;} 
+.menu{display: none;}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #590275;}
+
+li {float: left;}
+
+li a {display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;}
+
+li a:hover {
+    background-color: #9915DF;
+}
+
+body{height: auto;
+     background-image:url(../images/Rocas-de-Suesca.jpg);
+      background-attachment: fixed;   
+        }
+
+.container{display: inline-block;
+				   float: left;
+				   width: 100%;
+				   height: 700px;
+           border: 0px solid #fff;
+           padding: 5px;
+           margin: 2px;}
+.row{}
+.colleft{float: left;
+				width: 60%;
+				height: 652px;
+        border: 1px solid #fff;
+        padding: 10px;
+        padding-top: 30px;
+        margin: 2px;
+        background: rgba(252, 245, 244, 0.6);           
+           
+        }
+        /*slider*/
+.slider {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  
+  animation: cambio 10s infinite alternate linear;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+  
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+  
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+  
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
+}
+
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 240px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+.colright { float: right;
+			width: 39%;
+			height: 652px;
+      border: 1px solid #fff;
+      padding: 5px;
+      padding-top: 30px;
+      margin: 2px;
+      background: rgba(252, 245, 244, 0.6);
+        	
+
+        }
+/* Esto es css de footer*/
+.colleftdown {display: flex;
+              flex-wrap: wrap;
+      				width: 100%;
+      				height: 120px;
+              border: 1px solid #fff;
+              padding: 0;
+              margin: 2px;
+              background: rgba(252, 245, 244, 0.6);        
+        }
+ .conredes{width: 50%;
+           height: 80px;
+           background-color: none;
+           margin-left: 0%;
+           flex-wrap: wrap;
+           display: flex;}       
+.redes {max-width: 7%;
+        background-color: none; } 
+             
+
+.derechos{ text-align: center;
+ 			     color:white;
+           font-size: 18px
+
+ 			}
+
+input{padding: 2px;
+		  width: 50%;
+		  height: 30px;
+		  margin-top: 2px;}
+
+
+div.third {
+    background: rgba(76, 175, 80, 0.6);}
+
+
+img{ height: auto;
+     width: 50%;
+     margin: 0 0 0 350px;
+     }
+figure{}
+/*esto es css de Resgistro*/
+
+form {
+  max-width: 70%;
+  margin: 2px auto;
+  padding: 10px 20px;
+  background-color:rgba(51, 51, 51, 0.6);
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+
+
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+
+
+
+legend {
+  text-align: center;
+  font-size: 1.4em;
+  margin-bottom: 0px;
+}
+.botonr { width: 45%; 
+          margin-left: 1%;}
+
+
+/*esto es css de contatco*/
+.contac{max-width: 700px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color:rgba(51, 51, 51, 0.9);
+  border-radius: 8px;
+  color: white;
+}
+
+.containercontac{display: inline-block;
+                float: left;
+                width: 100%;
+                height: auto;
+                border: 0px solid #fff;
+                padding: 10px;
+                margin: 2px;}
+.containercontac  p{text-align: left;
+                     font-size:20px;
+                     color: black;}
+.radio{width: 20px;}                     
+label{font-size: 18px;
+      color: white;}
+.selectc{width: auto;}                     
+.label{ margin-left: 30px;}                     
+
+textarea{max-width: 98%;
+         max-height: 300px;}
+.botonc { width: 30%; 
+           margin-left: 70px;}
+
+/*esto es css de quienes somos*/
+.contacqs{max-width: 500px;
+  margin: 10px auto;
+  padding: 10px 20px;
+   background-color:rgba(51, 51, 51, 0.9);
+  border-radius: 8px;
+}
+
+.containerqs  p {
+               font-size: 18px;
+               color: white;
+               }
+/*esto es css de servcios*/
+
+th{color: #F2FBEF;
+   background-color:rgba(51, 51, 51, 0.6);}
+  
+  td{color: #151515;
+    font-size: 100%;
+    background-color: #ccc;
+    text-align: center;
+
+    }
+
+  table{margin: 5px auto; 
+    width: 90%;}
+  
+  .containerservis{
+          margin: 5% 10% 5% 10%;
+          border: 1px solid #ccc;
+          background-color: #8A4B08;
+          padding: 0 10px 10px 10px;
+          background-image: url('images/Grua.jpg');
+          background-attachment: fixed;}
+/*esto es css de usuario*/
+.usuario{border: 0 solid #ccc;
+         width: 100%;
+         background-color: #590275;
+         height: 50px;
+         font-size: 20px;
+     }    
+
+.usu{width: 5%;
+  padding-bottom: 1px;
+  margin-left: 1200px;
+  }
+.salir{float: center;
+       color: white;}
+.fila{   margin: 5px auto ;
+      background-color: #ccc;
+      padding:5px;
+      width: 98%;
+      height:auto;
+      display: flex;
+      flex-wrap: wrap;
+     }
+     .col1{width: 50%;
+    height: 500px;
+    background-color: white;
+
+
+      }
+.maps{width:100%;
+      height:300px; 
+       
+      border:0; 
+     }
+
+.col2{width: 30%;
+    height: 500px;
+    background-color: #5A5A5C;
+
+     }
+.tienda{width: 90%;
+        height: 120px;}  
+.evento{width: auto;
+        height: 120px;}
+.grupo{width: 100%;
+        height: 120px;}                   
+
+.col3{width: 20%;
+    height: 500px;
+    background-color: white;
+
+     }
+article{background-color: black;
+      width: 90%;
+      height: 300px;
+      margin: 5px auto ;}
+.destino{width: 30px;}
+
+p{
+  font-size: 18px;
+  margin: 10px 10px 10px 30px ;
+}     
+.article1,.article2,.article3{ background-color: black;
+                             width: 90%;
+                             height: 160px;
+                             margin: 5px auto ;
+
+}
+.article4,.article5{ background-color: black;
+                             width: 90%;
+                             height: 240px;
+                             margin: 5px auto ;
+}
+
+@media screen and (min-width: 475px) and (max-width: 815px){
+  
+  form {
+    max-width: 815px;
+  }
+
+  li {
+    float: left;}
+
+li a {
+    display: block;}
+
+input[id^="spoiler"]{
+ display: none;}
+
+input[id^="spoiler"] + label {
+  display: block;
+  width: 20%;
+  margin-left: 5%;
+  padding: 1% 5%;
+  background:  #9915DF;
+  color: #fff;
+  text-align: left;
+  font-size: 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all .1s;
+}
+
+input[id^="spoiler"]:checked + label {
+  color: #333;
+  background: #eee;
+}
+
+input[id^="spoiler"] ~ .spoiler {
+  width: 30%;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin-left: 25%; 
+  padding: 2%; 
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all .6s;
+}
+
+input[id^="spoiler"]:checked + label + .spoiler{
+  height: auto;
+  width: 20%;
+  opacity: 1;
+  padding: 1px;
+  
+}
+.colleft{width: 100%;
+         height: 500px;}
+
+.colright{width: 100%;
+          height: 650px;}
+
+.colleftdown {width: 100%;
+              height: 100px;}
+
+
+
+
+}
+
+
+@media screen and (min-width: 260px) and (max-width: 474px){
+
+h1{font-size: 500%;}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+   
+    
+}
+  form {
+    max-width: 480px;
+  }
+
+input[id^="spoiler"]{
+ display: none;
+}
+input[id^="spoiler"] + label {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  background: #800000;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all .1s;
+}
+input[id^="spoiler"]:checked + label {
+  color: #333;
+  background: #ccc;
+}
+input[id^="spoiler"] ~ .spoiler {
+  width: 90%;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin: 10px auto 0; 
+  padding: 2px; 
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all .6s;
+}
+input[id^="spoiler"]:checked + label + .spoiler{
+  height: auto;
+   width: 50%;
+  opacity: 1;
+  padding: 2px;
+  
+}
+.container{display: inline-block;
+                float: left;
+                width: 100%;
+                height: 1000px;}
+
+.colleft{width: 100%;
+         height: auto;}
+
+.colright{width: 100%;
+          height: auto;}
+
+h2{ font-size: 30px;}
+
+.colleftdown {
+                width: 100%;
+                height: 100px;}
+body{background-image:url(../images/paramo.jpg);
+     background-attachment: fixed;
+     height: 500px;} 
+
+}
+
+

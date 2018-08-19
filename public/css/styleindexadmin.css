@@ -1,0 +1,178 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 5px ;}
+body{height: 500px;
+      background-image:url(../images/Rocas-de-Suesca.jpg);
+    background-attachment: fixed;   }
+
+header{width: 99%;
+	     height: 50px;
+       background-color: #590275;
+      display: flex;}
+.buscar{width: 50%;
+        height: 40px;
+        background-color: none;
+        margin-left: 60%;
+        } 
+.redes{width: 13%;}
+
+.salir:visited{color: white;} 
+
+@font-face{font-family: "acuncum";
+          src: url("http://localhost/Diagramacion/public/fonts/PAPYRUS.ttf");}      
+h1{font-family: acuncum;
+  color: white;
+   padding: 7px;
+  font-size: 150%;}
+h2{font-size: 18px;
+  margin-right: 600px;} 
+h3{font-size: 12px;
+  margin-top: 0;
+  color: white;}    
+h4{color: white;}     
+.row{display: flex;}  
+
+aside{width: 30%;
+	    height: 490px;
+      background-color: #ccc;
+      margin-top: 0;
+      padding: 0;
+       }
+.usuario{height: 90px;
+         width:auto;
+         background-color:rgba(51, 51, 51, 0.6);}
+.usu{width: 50px;
+     margin-left: 15px;}         
+nav{width:auto;
+    height: auto;
+    min-height: 300px;
+    color: black;
+    background-color: white; 
+    }  
+a{display: block;
+  margin-left: 20px;
+  }            
+.usuariofoot{ height: 50px;
+              width:auto;
+              background-color: white; }               
+.col2{flex-wrap: wrap;
+	   display: flex;
+	   width: 79%;
+	   height:auto;
+      background: rgba(252, 245, 244, 0.6); 
+     padding-top: 5px;
+    }              
+.estad{margin-top: 10px;
+       width: 20%;}
+.estad1,.estad2,.estad3,.estad4{margin-right: 2%;
+                                margin-bottom: 1%;
+	                              width: 22%;
+                                height: 50px;}
+.estad1{background-color: #ff0059;} 
+.estad2{background-color: blue;} 
+.estad3{background-color: green;} 
+.estad4{background-color: orange;}  
+.      
+
+.imagen{width:100%;
+        height: auto;}
+.grafica{margin-top: 20px;
+         margin-bottom: 20px;
+         width: 97%;
+         height: 230px;
+         background-color:none;
+        } 
+.caja1,.caja2,.caja3{ margin-right: 2%;
+                      margin-top: 0;
+	                    width: 30%;
+                      height: 200px;}
+.caja1{background-color: #ff0059;} 
+.caja2{background-color: white;}
+.caja3{background-color: black;} 
+.imacaja1{width:90%;}
+/*footer*/
+.derechos{ text-align: center;
+      color:white;
+      }
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+
+
+.buscar{width: 40%;
+        height: 40px;
+        margin-left: 50%;
+        } 
+.redes{width: 13%;}        
+.row{display: block;}     
+aside{width: 100%;
+      height: 380px;
+      }
+
+.col2{width: 100%;
+      margin: 0 auto;
+      padding-left: 40px;} 
+
+.usuario{height: 80px;
+        }
+nav{
+    height: auto;
+    min-height: 200px;}
+.usuariofoot{ height: 50px;
+              width: auto;} 
+.estad1,.estad2,.estad3,.estad4{
+      width: 45%;
+      height: 50px;}
+.grafica{width: 94%;} 
+.estad{margin-top: 15px;
+       width: 8%;}
+.imagen{width:98%;}
+
+
+.caja1,.caja2,.caja3{ 
+      width: 94%;
+      height: 150px;
+        } 
+.imacaja1{width: 50%;}
+a{display: inline-block;}       
+
+}   
+
+
+@media screen and (max-width: 663px){ 
+header{
+        height: 50px;
+      }
+.buscar{width: 40%;
+        height: 40px;
+        margin-left: 30%;
+        }
+.redes{width: 13%;}
+ 
+.row{display: block;}
+aside{width: 98%;
+      }
+.col2{width: 100%;}
+.estad1,.estad2,.estad3,.estad4{
+      width: 98%;
+      height: 50px;}
+
+.grafica{width: 93%;}
+.estad{margin-top: 15px;
+       width: 7%;}       
+.imagen{width:98%;}
+.caja1,.caja2,.caja3{ 
+      width: 98%;
+      height: 150px;
+        } 
+.imacaja1{width: 50%;}
+a{display: inline-block;}                   
+}              
+
+@media screen and (max-width: 500px){
+  .buscar{width: 50%;
+        height: 40px;
+        margin-left: auto;
+        }
+  .redes{width: 15%;
+    padding-right: 2%;}
+}
